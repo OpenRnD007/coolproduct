@@ -11,6 +11,12 @@ function MyApp({ Component, pageProps }: AppProps) {
       <TopHeader />
       <MenuBar />
       <Component {...pageProps} />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin='' />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap"
+        rel="stylesheet"
+      />
     </div>
   )
 }

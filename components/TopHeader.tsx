@@ -1,17 +1,8 @@
-import Head from 'next/head';
 import React from 'react';
 
 const TopHeader = () => {
     return (
         <React.Fragment>
-            <Head>
-                <link rel="preconnect" href="https://fonts.googleapis.com" />
-                <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin='' />
-                <link
-                    href="https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap"
-                    rel="stylesheet"
-                />
-            </Head>
             <div className={styles.greenbar}>
                 <div className={styles.grid2col}>
                     <ul className={styles.socialMain}>

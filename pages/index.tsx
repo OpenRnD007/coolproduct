@@ -1,11 +1,15 @@
 import React from 'react'
 import create from 'zustand'
+import HeroSlider from '../components/HeroSlider'
+import TopFeature from '../components/TopFeature'
 
 export default function Home() {
   const counter = useMainStore((state: any) => state.counter)
   const incrementCounter = useMainStore((state: any) => state.increasePopulation)
   return (
-    <div className={styles.main}>
+    <div>
+      <HeroSlider />
+      <TopFeature />
       {/* <div className={styles.card}>
         <a>
           <h5 className={styles.cardTitle}>Server is UP</h5>
